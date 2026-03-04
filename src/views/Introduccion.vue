@@ -99,49 +99,49 @@
 
             .col-lg-8
               SlyderF(columnas="col-lg-6 col-xl-4")
-                .tarjeta.bg-6.p-4
+                .tarjeta.bg-base3.p-4
                   .row.justify-content-center.mb-3
                     .col-8
                       img(src='@/assets/componentes/ej-05.svg', alt='').img100.m-auto
                   p.text-center.mb-0 Explicar las características de algo (describir).
                   
-                .tarjeta.bg-6.p-4
+                .tarjeta.bg-base3.p-4
                   .row.justify-content-center.mb-3
                     .col-8
                       img(src='@/assets/componentes/ej-05.svg', alt='').img100.m-auto
                   p.text-center.mb-0 Identificar los elementos principales de esas características (definir).
 
-                .tarjeta.bg-6.p-4
+                .tarjeta.bg-base3.p-4
                   .row.justify-content-center.mb-3
                     .col-8
                       img(src='@/assets/componentes/ej-05.svg', alt='').img100.m-auto
                   p.text-center.mb-0 Reconocer las distintas categorías, grupos y subgrupos a los que pertenece algo (clasificar).
 
-                .tarjeta.bg-6.p-4
+                .tarjeta.bg-base3.p-4
                   .row.justify-content-center.mb-3
                     .col-8
                       img(src='@/assets/componentes/ej-05.svg', alt='').img100.m-auto
                   p.text-center.mb-0 Descubrir semejanzas y diferencias entre dos cosas (comparar).
 
-                .tarjeta.bg-6.p-4
+                .tarjeta.bg-base3.p-4
                   .row.justify-content-center.mb-3
                     .col-8
                       img(src='@/assets/componentes/ej-05.svg', alt='').img100.m-auto
                   p.text-center.mb-0 Llegar a una ley general a partir de ejemplos particulares (inducir).
 
-                .tarjeta.bg-6.p-4
+                .tarjeta.bg-base3.p-4
                   .row.justify-content-center.mb-3
                     .col-8
                       img(src='@/assets/componentes/ej-05.svg', alt='').img100.m-auto
                   p.text-center.mb-0 Realizar operaciones lógicas para llegar a conclusiones (deducir).
                 
-                .tarjeta.bg-6.p-4
+                .tarjeta.bg-base3.p-4
                   .row.justify-content-center.mb-3
                     .col-8
                       img(src='@/assets/componentes/ej-05.svg', alt='').img100.m-auto
                   p.text-center.mb-0 Separar los distintos elementos que componen una estructura (analizar).
 
-                .tarjeta.bg-6.p-4
+                .tarjeta.bg-base3.p-4
                   .row.justify-content-center.mb-3
                     .col-8
                       img(src='@/assets/componentes/ej-05.svg', alt='').img100.m-auto
@@ -174,7 +174,7 @@
 
     .row.align-items-center.mt-4
       .col-lg-12.mb-lg-0
-        ul.lista-ul--color.bg-7.bg-r8.p-4
+        ul.lista-ul--color.bg-base.bg-r8.p-4
           li
             i.lista-ul__vineta
             p.mb-0 Tener un fin claro y específico.
@@ -188,7 +188,7 @@
 
     .titulo-tres.mt-5: h3 li_letras
 
-    .row.align-items-center.bg-5.bg-r8.p-4
+    .row.align-items-center.bg-base.bg-r8.p-4
       .col-12
         ol.lista-ol--cuadro
           li 
@@ -210,7 +210,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-4.mb-4.mb-lg-0
-        .tarjeta.clr-paleYellow.p-4.text-center.bg-10
+        .tarjeta.clr-paleYellow.p-4.text-center.bg-base2
           .row.justify-content-center.mb-3
             .col-auto
               .circle-morado
@@ -219,7 +219,7 @@
           h4.mb-0 Estructura lógica
 
       .col-lg-4.mb-4.mb-lg-0
-        .tarjeta.clr-paleYellow.p-4.text-center.bg-10
+        .tarjeta.clr-paleYellow.p-4.text-center.bg-base2
           .row.justify-content-center.mb-3
             .col-auto
               .circle-morado
@@ -228,7 +228,7 @@
           h4.mb-0 Ideas generales
 
       .col-lg-4
-        .tarjeta.clr-paleYellow.p-4.text-center.bg-10
+        .tarjeta.clr-paleYellow.p-4.text-center.bg-base2
           .row.justify-content-center.mb-3
             .col-auto
               .circle-morado
@@ -241,21 +241,21 @@
 
     .row.justify-content-center
       .col-lg-4
-        .crd.bg-7.bg-r8.p-4.text-center.h-100
+        .crd.bg-base.bg-r8.p-4.text-center.h-100
           figure.mb-2(data-aos="zoom-in")
             img(src='@/assets/componentes/ej-05.svg', alt='Inicio párrafo', style='width: 80px').m-auto
           p.mb-0
             strong Al inicio del párrafo
 
       .col-lg-4.mt-lg-0.mt-4
-        .crd.bg-7.bg-r8.p-4.text-center.h100
+        .crd.bg-base.bg-r8.p-4.text-center.h100
           figure.mb-2(data-aos="zoom-in")
             img(src='@/assets/componentes/ej-05.svg', alt='Parte central', style='width: 80px').m-auto
           p.mb-0
             strong En la parte central del párrafo
 
       .col-lg-4.mt-lg-0.mt-4
-        .crd.bg-7.bg-r8.p-4.text-center.h-100
+        .crd.bg-base.bg-r8.p-4.text-center.h-100
           figure.mb-2(data-aos="zoom-in")
             img(src='@/assets/componentes/ej-05.svg', alt='Final párrafo', style='width: 80px').m-auto
           p.mb-0
@@ -297,7 +297,7 @@
 
     .row.justify-content-center
       .col-lg-10
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-9")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-base")
           .tarjeta.clr--pink02.p-4(titulo="Disposición")
             .row.align-items-center
               p texto
@@ -325,9 +325,9 @@
         .row.bg-2
           figure(data-aos="zoom-in")
             img(src='@/assets/componentes/ej-05.svg', style="width: 80px").m-auto          
-          .row.justify-content-center.g-0.p-4.bg-8
+          .row.justify-content-center.g-0.p-4.bg-base
             .col-lg-10
-              .tarjeta.bg-8.rounded-0.h-100
+              .tarjeta.bg-base.rounded-0.h-100
                 .tarjeta.bg-white.p-4
                   TarjetaAudio.color-acento-botones.bg-white.mb-3(
                   texto="Pódcast"
@@ -375,7 +375,7 @@
             p La letra b siempre representa el fonema labial sonoro de barco, beso, blusa o abuelo. Notas orientadoras sobre el uso de la letra b se escriben con b:
 
 
-      .py-3.py-md-4.bg-14(titulo="Se escribe con v")
+      .py-3.py-md-4.bg-base(titulo="Se escribe con v")
         .row.p-4
           .col-md-12.mb-4.mb-md-0
             p La letra v siempre representa el fonema labial sonoro de vaso, vida, invadir o cavar. Notas orientadoras sobre el uso de la letra v. Se escribe con v:
@@ -387,7 +387,7 @@
           .col-lg-12
             .row.justify-content-center.mt-4
               .col-lg-12(data-aos="fade-down")
-                .row.d-flex.align-items-center.bg-8(data-aos="fade-right")
+                .row.d-flex.align-items-center.bg-base(data-aos="fade-right")
                   .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                     figure.m-0.p-0.w-100.h-100.d-flex
                       img(src='@/assets/curso/temas/1.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
@@ -401,7 +401,7 @@
       .col-lg-12
         .row.justify-content-center.mt-4
           .col-lg-12(data-aos="fade-down")
-            .row.d-flex.align-items-center.bg-7.bg-r8(data-aos="fade-right")             
+            .row.d-flex.align-items-center.bg-base.bg-r8(data-aos="fade-right")             
               .col-lg.p-4
                 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. In fermentum facilisis massa, a consequat purus viverra a. Donec vel mauris quam. Aliquam convallis sollicitudin purus, sed mattis est convallis id. Donec sed 
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
@@ -432,27 +432,27 @@
 
     .row.justify-content-center
       .col-lg-10
-        .row.bg-5.bg-r4.p-3.align-items-center
+        .row.bg-base.bg-r4.p-3.align-items-center
           .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
             figure(data-aos="fade-left")
               img(src="@/assets/componentes/ej-05.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
             p.mb-0 Se escriben con y las palabras que terminan con el sonido equivalente a i cuando este va precedido de una vocal con la que forma diptongo, o de dos vocales con las que forma triptongo.
             p Ejemplos: ay, estoy, verdegay, Bombay, buey, ley, rey, convoy, soy, Godoy, muy, Uruguay, Garay. Existen algunas excepciones, como saharaui o bonsái.
-        .row.bg-7.p-3.align-items-center
+        .row.bg-base3.p-3.align-items-center
           .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
             figure(data-aos="fade-left")
               img(src="@/assets/componentes/ej-05.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
             p.mb-0 La conjunción copulativa y se escribe con esta letra.
             p Ejemplos: Juan y María; cielo y tierra; este y aquel. Esta conjunción adopta la forma e ante palabras que comienzan por el fonema vocálico correspondiente a i (ciencia e historia; catedrales e iglesias), salvo cuando dicha vocal forma diptongo (cobre y hierro; estratosfera y ionosfera).
-        .row.bg-5.p-3.align-items-center
+        .row.bg-base.p-3.align-items-center
           .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
             figure(data-aos="fade-left")
               img(src="@/assets/componentes/ej-05.svg", alt="", style="width: 80px").m-auto
           .col-lg-10
             p Las palabras que presentan el sonido palatal sonoro ante vocal se escriben con y, especialmente en los siguientes casos. En primer lugar, cuando este sonido aparece después de los prefijos ad-, dis- y sub-, como en adyacente, disyuntivo y subyugar. En segundo lugar, en algunas formas de los verbos caer, raer, creer, leer, poseer, proveer y sobreser, así como en los verbos terminados en -oir y -uir, por ejemplo: cayeran, leyendo, oyó, concluyó y atribuyera.
-        .row.bg-7.bg-r2.p-3.align-items-center
+        .row.bg-base3.bg-r2.p-3.align-items-center
           .col-lg-2.d-lg-block.d-none(data-aos="fade-down")
             figure(data-aos="fade-left")
               img(src="@/assets/componentes/ej-05.svg", alt="", style="width: 80px").m-auto
@@ -473,6 +473,74 @@
       .col-lg-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/1.png', alt='', style="width: 390px").m-auto
+
+    .titulo-tres.mt-5: h3 two_tarj_over 
+
+    .row.justify-content-center.mt-4 
+      .col-lg-10
+        .row.justify-content-center.mt-4
+          .col-lg-5.mb-4.mb-lg-0
+            .tarjeta.clr-paleYellow.p-4.text-center.bg-base2.h-100
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .circle-morado
+                    figure(data-aos="zoom-in")
+                      img(src='@/assets/componentes/ej-05.svg' style='width: 80px')
+              p.text-start De acuerdo con la Organización Mundial de la Salud (OMS), la violencia sexual se define como:
+    
+              p.text-start Todo acto sexual, intento de consumar un acto sexual, comentarios o insinuaciones sexuales no deseadas, o acciones orientadas a comercializar, utilizar o controlar la sexualidad de una persona, mediante coerción, intimidación, amenaza, fuerza física, abuso de poder u otros mecanismos que anulen o limiten la voluntad personal, independientemente de la relación entre la víctima y el agresor y del ámbito en el que ocurra.
+    
+          .col-lg-5.mb-4.mb-lg-0
+            .tarjeta.clr-paleYellow.p-4.text-center.bg-base2.h-100
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .circle-morado
+                    figure(data-aos="zoom-in")
+                      img(src='@/assets/componentes/ej-05.svg', style='width: 80px')
+              p.text-start En el marco normativo colombiano, la Ley 1257 de 2008 define la violencia sexual como:
+    
+              p.text-start Toda acción que cause daño
+
+
+    .titulo-tres.mt-5: h3 tarj_img_small_text
+
+    .row.justify-content-center.mt-4
+      .row.justify-content-center
+        .col-lg-2.d-flex.mt-4.mt-lg-0
+          .crd.bg-base.bg-r8.p-4.h-100.w-100
+            figure.mb-2(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/doctor.svg', style='width: 40px')
+            p.mb-0 Derecho a la vida y a la integridad física y mental.
+  
+        .col-lg-2.d-flex.mt-4.mt-lg-0
+          .crd.bg-base.bg-r8.p-4.h-100.w-100
+            figure.mb-2(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/doctor.svg', style='width: 40px')
+            p.mb-0 Derecho a la dignidad humana.
+  
+        .col-lg-2.d-flex.mt-4.mt-lg-0
+          .crd.bg-base.bg-r8.p-4.h-100.w-100
+            figure.mb-2(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/doctor.svg', style='width: 40px')
+            p.mb-0 Derecho a la libertad y a la autonomía personal.
+
+        .col-lg-2.d-flex.mt-4.mt-lg-0
+          .crd.bg-base.bg-r8.p-4.h-100.w-100
+            figure.mb-2(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/doctor.svg', style='width: 40px')
+            p.mb-0 Derecho a la igualdad y a la no discriminación.
+  
+        .col-lg-2.d-flex.mt-4.mt-lg-0
+          .crd.bg-base.bg-r8.p-4.h-100.w-100
+            figure.mb-2(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/doctor.svg', style='width: 40px')
+            p.mb-0 Derecho al libre desarrollo de la personalidad.
+  
+        .col-lg-2.d-flex.mt-4.mt-lg-0
+          .crd.bg-base.bg-r8.p-4.h-100.w-100
+            figure.mb-2(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/doctor.svg', style='width: 40px')
+            p.mb-0 Derecho al más alto nivel posible de salud física y mental.
 
 
 </template>
