@@ -318,6 +318,38 @@
             .row.align-items-center
               p texto
     
+
+    .titulo-tres.mt-5: h3 acordeon_tipo_flecha
+
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .row.justify-content-center 
+          AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul").color-primario
+            //-1ra pestaña
+            .row(titulo="Coordinación del sector salud con medicina legal")
+              p La articulación con el Instituto Nacional de Medicina Legal y Ciencias Forenses (INMLCF) debe desarrollarse bajo criterios de oportunidad, claridad de competencias y respeto por la autonomía de la víctima.
+              
+              p Para asegurar una actuación adecuada, deben observarse los siguientes principios:
+
+            //-2da pestaña  
+            .row(titulo="Posibles elementos probatorios")
+              p Los posibles elementos probatorios son materiales o evidencias que pueden identificarse durante la atención en salud y que podrían aportar información relevante para la investigación judicial, sin afectar la prioridad asistencial ni la dignidad de la persona atendida.
+
+              p Elementos que pueden identificarse durante la atención:
+            
+            //-3ra pestaña
+            .row(titulo="Cadena de custodia y límites del rol del sector salud")
+              p La cadena de custodia es el conjunto de procedimientos que garantizan la integridad y autenticidad de los elementos materiales probatorios desde su recolección hasta su análisis final. El sector salud participa únicamente en las etapas iniciales, dentro de los límites de su competencia.
+              
+              p Límites claros del rol del sector salud:
+
+            //-4ra pestaña
+            .row(titulo="Prevención de revictimización")
+              p La revictimización en el proceso forense se presenta cuando la persona afectada es sometida a procedimientos innecesarios, repetitivos o invasivos que pueden profundizar el daño sufrido. En este contexto, el sector salud tiene la responsabilidad ética y profesional de prevenir activamente cualquier práctica que genere nuevas afectaciones durante la atención.
+             
+              p Acciones clave para prevenir la revictimización:
+
+
     .titulo-tres.mt-5: h3 podcast
 
     .row.justify-content-center.mt-4
