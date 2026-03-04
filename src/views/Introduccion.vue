@@ -617,6 +617,17 @@
                   i.fas.fa-file-download
 
 
+    .titulo-tres.mt-5: h3 cajon_color
+
+    .row.justify-content-center
+      .col-lg-10
+        .row.align-items-center
+          .col-lg-12
+            .cajon.color2.p-4
+              p background con la esquina coloreada (Se deben agregar los estilos base)
+
+
+
 
 </template>
 
