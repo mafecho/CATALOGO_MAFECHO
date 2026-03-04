@@ -598,6 +598,25 @@
           img(src='@/assets/curso/temas/1.png', alt='', style="width: 100%").m-auto
 
 
+    .titulo-tres.mt-5: h3 banner_btn_descarga
+
+    .row.justify-content-center
+      .col-lg-10
+        .row.align-items-center
+          .col-lg-12
+             .row.align-items-center.bg-base.p-3.bg-r8
+              .col-lg-2
+                figure(data-aos="fade-down")
+                  img(src='@/assets/curso/temas/doctor.svg', style='width: 90px').m-auto             
+              .col-lg-7
+                h4 Titulo
+                p texto 
+              .col-lg-3
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+                  span Descargar
+                  i.fas.fa-file-download
+
+
 
 </template>
 
