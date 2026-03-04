@@ -543,6 +543,62 @@
             p.mb-0 Derecho al más alto nivel posible de salud física y mental.
 
 
+    .titulo-tres.mt-5: h3 linea_pasos_vertical
+
+    .row.justify-content-center 
+      .col-lg-8
+        LineaTiempoD.color-primario.linea-bold
+          .row(numero="1" titulo="Contenido del registro")
+            .col-md-12.mb-4.mb-md-0
+              ul.lista-ul--color
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Motivo
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Evaluación
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Procedimientos
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Consentimientos
+    
+          .row(numero="2" titulo="Características del registro")
+            .col-md-12.mb-4.mb-md-0
+              ul.lista-ul--color
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Claro
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Pertinente
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Libre
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Respetuoso
+    
+          .row(numero="3" titulo="Finalidad del registro")
+            .col-md-12.mb-4.mb-md-0
+              ul.lista-ul--color
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Garantizar
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Facilitar
+                li
+                  i.lista-ul__vineta
+                  p.mb-0 Favorecer
+    
+      .col-lg-4.d-none.d-lg-block
+        figure(data-aos="fade-up")
+          img(src='@/assets/curso/temas/1.png', alt='', style="width: 100%").m-auto
+
+
+
 </template>
 
 <script>
