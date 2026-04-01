@@ -46,8 +46,7 @@
             p.mb-0 Derecho al más alto nivel posible de salud física y mental.
      
     
-    
-
+        
 
 </template>
 
